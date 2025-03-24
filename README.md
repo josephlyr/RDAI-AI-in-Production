@@ -4,7 +4,7 @@
 
 ## Overview
 
-This project implements a text summarisation API using FastAPI and the `facebook/bart-large-cnn` model from Hugging Face’s transformers library. The API enables users to submit text input and receive a concise summary based on configurable parameters for summary length. The application is containerized using Docker. This allows it to run consistently across different environments without dependency conflicts. Once deployed, the container exposes the API on port 8000, allowing users to interact via RESTful requests or use the Swagger UI for testing.
+This project implements a text summarisation API using FastAPI and the `facebook/bart-large-cnn` model from Hugging Face’s transformers library. The API enables users to submit text input and receive a concise summary based on configurable parameters for summary length. The application is containerized using Docker. This allows it to run consistently across different environments. Once deployed, the container exposes the API on port 8000, allowing the user to interact via RESTful requests or use the Swagger UI for testing.
 
 ## Model
 
